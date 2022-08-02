@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  font-family: 'Roboto';
+}
+
+.navbar{
+  background-color: black;
+  display: flex;
+  height: 80px;
+  font-size: 3rem;
+  border: 0.2rem solid rgb(39, 222, 39);
+  margin-top: 1px;
+}
+
+.navbar-title{
+  display: block;
+  padding: 2rem;
+  text-indent: 30px;
+  font-size: 3.5rem;
+  text-decoration: none;
+  color: green;
+}
+
+.main{
+  display: flex;
+  height: 500px;
+  background-color: black;
+}
+
