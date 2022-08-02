@@ -6,7 +6,6 @@
   font-family: 'Roboto';
 }
 
-
 .navbar{
   background-color: rgb(41, 41, 41);
   display: flex;
@@ -25,41 +24,56 @@
 }
 
 .main{
-  padding-top: 20px;
   background-color: black;
   display: flex;
-  justify-content: center;
-  height: 750px;
-  
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  height: 1000px;
 }
 
-
-
-.main-objects{
-  display: flex;
-  margin: 30px;
-  background-color: red;
-  flex-wrap: wrap;
+@media only screen and (max-width: 835px) {
+  .main {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  }
+  .main .container{
+    width: 100%;
+  }
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  min-width: 250px;
-  border: 3px solid rgb(39, 222, 39);
+  width: 20%;
+  min-width: 167px;
+  height: 100%;
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
 }
 
 .container-text {
-  font-size: 2.5rem;
-  padding: 20px;
+  font-size: 3.5rem;
   text-decoration: none;
   color: rgb(39, 222, 39);
 }
 
 .lunes{
   background-image: url(/sources/brazo.jpeg);
-  background-size: cover;
-  background-position:center;
-  background-repeat: no-repeat;
 }
 
+.martes{
+  background-image: url(/sources/espalda.jpeg);
+}
+
+.miercoles{
+  background-image: url(/sources/pierna.jpeg);
+}
+
+.jueves{
+  background-image: url(/sources/pecho.jpeg);
+}
+
+.viernes{
+  background-image: url(/sources/bicep.jpeg);
+}
