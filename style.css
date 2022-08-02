@@ -7,16 +7,22 @@
 }
 
 .navbar{
-  background-color: rgb(41, 41, 41);
+  background: linear-gradient(207.8deg,  rgb(39,222,39)16.69%, #201E1C);
   display: flex;
   height: 80px;
   font-size: 3rem;
   margin-top: 1px;
 }
 
-.navbar-title{
+.navbar-logo img{
+  width: 90px;
+  height: 80px;
+  align-self: center;
+  padding: 10px;
+}
+
+.navbar-logo{
   display: block;
-  padding: 2rem;
   text-indent: 30px;
   font-size: 3.5rem;
   text-decoration: none;
