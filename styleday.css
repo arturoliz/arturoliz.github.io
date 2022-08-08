@@ -1,0 +1,84 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: 'Anton', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar{
+  background: linear-gradient(207.8deg,  rgb(39,222,39)16.69%, #201E1C);
+  display: flex;
+  height: 80px;
+  font-size: 3rem;
+  margin-top: 1px;
+}
+
+.navbar-logo img{
+  width: 90px;
+  height: 80px;
+  align-self: center;
+  padding: 10px;
+}
+
+.navbar-logo{
+  display: block;
+  text-indent: 30px;
+  font-size: 3.5rem;
+  text-decoration: none;
+  color: rgb(39, 222, 39);
+}
+
+main{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: 1000px;
+  background-color:#201E1C;
+}
+
+.day-title-container{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: auto;
+    margin-top: 40px;
+    text-align: center;
+    align-self: center;
+}
+
+.day-title-container h1{
+  font-size: 4.5rem;
+  color: rgba(39, 222, 39, 0.774);
+  line-height: 2.6rem;
+}
+
+.day-title-container p{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  color: rgb(252, 247, 229);
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.day-warmup-container{
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  height: auto;
+  margin-top: 100px;
+  align-self: center;
+  text-align: center;
+}
+
+.day-warmup-container h2{
+  font-size: 2.5rem;
+  color: rgb(252, 247, 229);
+}
