@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   font-size: 62.5%;
-  font-family: 'Roboto';
+  font-family: 'Anton', sans-serif;
 }
 
 .navbar{
@@ -57,14 +57,18 @@
   background-position:center;
   background-repeat: no-repeat;
 }
+
 .container:hover{
   opacity: 0.5;
 }
 
 .container-text {
+  padding-top: 40px;
+  writing-mode: vertical-lr;
   font-size: 3.5rem;
   text-decoration: none;
-  color: rgb(39, 222, 39);
+  color: white;
+  font-size: 8.5rem;
 }
 
 .lunes{
