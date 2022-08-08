@@ -8,6 +8,7 @@ html{
   font-size: 62.5%;
   font-family: 'Anton', sans-serif;
   scroll-behavior: smooth;
+  color: white;
 }
 
 .navbar{
@@ -40,7 +41,7 @@ main{
   position: relative;
   width: 100%;
   min-width: 320px;
-  height: 1000px;
+  height: 100%;
   background-color:#201E1C;
 }
 
@@ -81,4 +82,14 @@ main{
 .day-warmup-container h2{
   font-size: 2.5rem;
   color: rgb(252, 247, 229);
+}
+
+.day-warmup-container h3{
+  margin: 25px;
+  font-size: 2rem;
+}
+
+.day-warmup-container img{
+  border-radius: 15px;
+  height: 300px;
 }
