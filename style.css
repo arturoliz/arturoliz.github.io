@@ -90,3 +90,15 @@
 .viernes{
   background-image: url(/sources/bicep.jpeg);
 }
+
+.footer{
+  display: flex;
+  justify-content: center;
+  background: rgb(66, 189, 64);
+  height: 80px;
+}
+.footer-text{
+  margin: 15px;
+  color: white;
+  font-size: 2rem;
+}

@@ -93,4 +93,17 @@ main{
   border-radius: 15px;
   height: 400px;
   width: 650px;
+  margin-bottom: 15px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  background: rgb(66, 189, 64);
+  height: 80px;
+}
+.footer-text{
+  margin: 15px;
+  color: white;
+  font-size: 2rem;
 }
