@@ -99,6 +99,7 @@ main{
 @media only screen and (max-width: 835px) {
   .day-warmup-container img{
     width: 88%;
+    height: 300px;
   }
 }
 
