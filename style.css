@@ -72,23 +72,23 @@
 }
 
 .lunes{
-  background-image: url(/sources/brazo.jpeg);
+  background-image: url(/sources/monday/brazo.jpeg);
 }
 
 .martes{
-  background-image: url(/sources/espalda.jpeg);
+  background-image: url(/sources/monday/espalda.jpeg);
 }
 
 .miercoles{
-  background-image: url(/sources/pierna.jpeg);
+  background-image: url(/sources/monday/pierna.jpeg);
 }
 
 .jueves{
-  background-image: url(/sources/pecho.jpeg);
+  background-image: url(/sources/monday/pecho.jpeg);
 }
 
 .viernes{
-  background-image: url(/sources/bicep.jpeg);
+  background-image: url(/sources/monday/bicep.jpeg);
 }
 
 .footer{
